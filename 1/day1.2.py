@@ -40,7 +40,7 @@ with open(file_path, 'r') as file:
     for line in lines:
         result = find(line)
         sum = sum + result
-        
+
 print(sum)
 
 
